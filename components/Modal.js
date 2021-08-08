@@ -32,7 +32,11 @@ export default function TransitionsModal() {
     var inputVal = document.getElementById('password').value;
     if (inputVal == '梁政馨') {
       setOpen(false);
-    } else {
+    }  
+    else if (inputVal == '') {
+      alert("妳沒輸入歐^^");
+    } 
+    else {
       alert("安捏乾丟??😡😡😡");
       setOpen(true);
     }
