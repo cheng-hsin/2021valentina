@@ -111,3 +111,35 @@
   opacity: 0;
   transition: all 0.25s linear;
 }
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card img {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card img {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: 100%;
+  }
+}

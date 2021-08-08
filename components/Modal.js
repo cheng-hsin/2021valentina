@@ -29,10 +29,11 @@ export default function TransitionsModal() {
   };
 
   const handleClose = () => {
-    var inputVal = document.getElementById('date').value;
-    if (inputVal == '0814') {
+    var inputVal = document.getElementById('password').value;
+    if (inputVal == '梁政馨') {
       setOpen(false);
     } else {
+      alert("安捏乾丟??😡😡😡");
       setOpen(true);
     }
   };
@@ -56,9 +57,9 @@ export default function TransitionsModal() {
             <h2 id='transition-modal-title'>Hi! Tina Shen.</h2>
             <h2 id='transition-modal-title'>💗今天是特別的日子💗</h2>
             <p id='transition-modal-description'>
-              請輸入今天的日期 ex.0323、0314
+              請輸入妳最愛的人的名字
             </p>
-            <TextField id='date' label='🐱🐱🐱🐱' variant='outlined' />
+            <TextField id='password' label='🐱🐱🐱' variant='outlined' />
             &nbsp;
             <Button
               type='button'
