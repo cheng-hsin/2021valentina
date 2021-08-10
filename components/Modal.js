@@ -32,12 +32,12 @@ export default function TransitionsModal() {
     var inputVal = document.getElementById('password').value;
     if (inputVal == '梁政馨') {
       setOpen(false);
-    }  
-    else if (inputVal == '') {
-      alert("妳沒輸入歐^^");
-    } 
-    else {
-      alert("安捏乾丟??😡😡😡");
+    } else if (inputVal == '') {
+      alert('妳沒輸入歐^^');
+    }else if (isNaN(typeof(parseInt(inputVal))) == true) {
+      alert('不是輸入數字捏');
+    } else {
+      alert('安捏乾丟??😡😡😡');
       setOpen(true);
     }
   };
@@ -60,9 +60,7 @@ export default function TransitionsModal() {
           <div className={classes.paper}>
             <h2 id='transition-modal-title'>Hi! Tina Shen.</h2>
             <h2 id='transition-modal-title'>💗今天是特別的日子💗</h2>
-            <p id='transition-modal-description'>
-              請輸入妳最愛的人的名字
-            </p>
+            <p id='transition-modal-description'>請輸入妳最愛的人的名字</p>
             <TextField id='password' label='🐱🐱🐱' variant='outlined' />
             &nbsp;
             <Button
