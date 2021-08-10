@@ -34,9 +34,7 @@ export default function TransitionsModal() {
       setOpen(false);
     } else if (inputVal == '') {
       alert('妳沒輸入歐^^');
-    }else if (isNaN(typeof(parseInt(inputVal))) == true) {
-      alert('不是輸入數字捏');
-    } else {
+    }else {
       alert('安捏乾丟??😡😡😡');
       setOpen(true);
     }
