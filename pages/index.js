@@ -7,9 +7,7 @@ export default function Home() {
     <>
       <TransitionsModal></TransitionsModal>
       <Card></Card>
-      <footer className={styles.footer}>
-          Powered by 梁梁💗
-      </footer>
+      <footer className={styles.footer}>2021 Powered by 梁梁😻</footer>
     </>
   );
 }
