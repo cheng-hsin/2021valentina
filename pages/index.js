@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>豆叟 油囉西估</title>
+        <title>ティナ大好き!</title>
       </Head>
       <TransitionsModal></TransitionsModal>
       <Card></Card>
