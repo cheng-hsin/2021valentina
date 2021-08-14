@@ -5,19 +5,6 @@ const text = (
   <>
     <h6 className={styles['card-description']}>
       Dear 沈子絃:<br></br>
-      情人節快樂!
-      <br></br>
-      <img width='400' height='250' src='hi.jpg' alt='' />
-    </h6>
-    <h6 className={styles['card-under']}>
-      祝妳不是情人節的時候也每天都快樂! Love You{`<3`} from梁梁🐨
-    </h6>
-  </>
-);
-
-{
-  /* <h6 className={styles['card-description']}>
-      Dear 沈子絃:<br></br>
       現在妳是沒有情人的人所以我就是妳暫時的情人，想要在情人節的時候跟妳講一些話
       <br></br>
       我最喜歡跟妳一起玩耍，還有去你家找妳，還有跟妳一起逛街，還有吃飯跟睡覺
@@ -42,8 +29,9 @@ const text = (
     </h6>
     <h6 className={styles['card-under']}>
       祝妳不是情人節的時候也每天都快樂! Love You{`<3`} from梁梁🐨
-    </h6> */
-}
+    </h6>
+  </>
+);
 
 export default function Card() {
   return (
