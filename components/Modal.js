@@ -34,6 +34,9 @@ export default function TransitionsModal() {
       setOpen(false);
     } else if (inputVal == '') {
       alert('妳沒輸入歐^^');
+    } else if (inputVal == '江岳宸') {
+      var audio = new Audio('error.mp3');
+      audio.play();
     } else {
       alert('安捏乾丟??😡😡😡');
       setOpen(true);
